@@ -9,6 +9,7 @@ public:
 	~WorkerManager();
 
 	void showMenu();
+	void exitSystem();
 
 private:
 

@@ -22,3 +22,9 @@ void WorkerManager::showMenu() {
 	cout << "********************************************" << endl;
 	cout << endl;
 }
+
+void WorkerManager::exitSystem() {
+	cout << "推出系统" << endl;
+	system("pause");
+	exit(0);
+}
